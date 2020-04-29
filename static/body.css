@@ -1,0 +1,23 @@
+body{
+    width: 100%;
+    background-color: rgb(250, 250, 250);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial,sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+body .top_bar{
+    order: 1;
+}
+body .bottom_bar{
+    order: 4;
+}
+body .section1{
+    order: 2;
+}
+body .section2{
+    
+    order: 3;
+}
+button{
+    cursor: pointer;
+}

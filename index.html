@@ -1,0 +1,166 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="static/top_bar.css" rel="stylesheet" type="text/css">
+    <link href="static/top_bar=search_box.css" rel="stylesheet" t ype="text/css">
+    <link href="static/body.css" rel="stylesheet" type="text/css">
+    <link href="static/bottom_bar.css" rel="stylesheet" type="text/css">
+    <link href="static/bottom_bar=goto.css" rel="stylesheet" type="text/css">
+    <link href="static/section1.css" rel="stylesheet" type="text/css">
+    <link href="static/section1=profile_pic.css" rel="stylesheet" type="text/css">
+    <link href="static/section1=info=row1.css" rel="stylesheet" type="text/css">
+    <link href="static/section1=info=row2.css" rel="stylesheet" type="text/css">
+    <link href="static/section2=row_1.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <!--The top section with logo and search bar-->
+    
+    <nav class = "top_bar">
+        <div class ="blank">
+
+        </div> 
+        
+        <div class = "search_bar">
+            <form >
+                <input type = "text" id="search" name="search" onchange="hideIcon(this)" placeholder="Search">
+                <button class ="button"></button>
+            </form>
+        </div>
+       
+        <div class = "goto">
+            <img src="static/topbar.PNG" alt="instagram logo">
+        </div>
+        <div class = "logo">
+            <img src="static/instagram logo.PNG" alt="instagram logo">
+        </div>
+    </nav>
+   
+    
+    <!--The bottom section with help and copyright info-->
+
+    <footer class = "bottom_bar">
+        <div class = "goto">
+          
+                    <p>ABOUT</p>
+           
+             
+                    <p>HELP</p>
+               
+                    <p>PRESS</p>
+              
+                    <p>API</p>
+               
+                    <p>JOBS</p>
+                
+                    <p>PRIVACY</p>
+             
+                    <p>TERMS</p>
+               
+                    <p>LOCATIONS</p>
+              
+                    <p>TOP ACCOUNTS</p>
+               
+                    <p>HASHTAGS</p>
+              
+                    <p>LANGUAGE</p>
+             
+        </div>
+        <div class="copyright">
+            <p>© 2020 INSTAGRAM FROM FACEBOOK</p>
+        </div>
+    </footer>
+
+    <!-- The middle section with all the juicy stuff -->
+
+    <!-- the part with the profile pic/id/info -->
+    <section class = "section_1">
+        
+        <!-- profile pic -->
+        <div class = "profile_pic">
+            <button class="button">
+
+            </button>
+        </div>
+        
+        <!-- info sections-->
+        <div class = "info">
+
+            <!-- id/edit profile button/settings button -->
+            <div class = "row_1">
+                <p class = "id" >
+                    galbimandu 
+                </p>
+                <button class = "edit_profile">
+                    Edit Profile
+                </button>
+                <button class = "settings">
+
+                </button>
+                
+               
+            </div>
+
+            <!-- posts/followers/following -->
+            <div class = "row_2">
+                <p class = "posts">
+                    <strong>3</strong> posts
+                </p>
+                <button class = "followers">
+                    <strong>485</strong> followers
+                </button>
+                <button class = "following">
+                    <strong>470</strong> following
+                </button>
+            </div>
+
+            <!-- name/about me -->
+            <div class = "row_3">
+                <p class = "about_me">
+                    <strong>Michael Minchang Kim</strong><br>
+                    ROK Army<br>
+                    UW BADGER 20<br>
+                    MM16<br>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- the parth with the posts -->
+    <section class = "section_2">
+
+        <!-- posts/IGTV/saved/tagged -->
+        <div class = "row_1">
+            
+            <button class="posts">
+                <img class="posts" src="static/posts.PNG" alt="posts">  POSTS
+            </button>
+            <button class="igtv">
+                <img class="igtv" src="static/igtv.PNG" alt="igtv"> IGTV
+            </button>
+            <button class="saved">
+                <img class="saved" src="static/saved.PNG" alt="saved"> SAVED
+            </button>
+            <button class="tagged">
+                <img class="tagged" src="static/tagged.PNG" alt="tagged"> TAGGED
+            </button>
+        </div>
+
+        <!-- post pics -->
+        <div class = "row_2">
+            <ul>
+                <li>
+
+                </li>
+                <li>
+
+                </li>
+                <li>
+
+                </li>
+            </ul>
+        </div>
+    </section>
+</body>
+</html>

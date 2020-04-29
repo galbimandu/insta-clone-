@@ -1,0 +1,44 @@
+body{
+    top:0;
+}
+body .logo{
+    position: absolute;
+    padding-left: 0.7em;
+    background-color: white;
+
+}
+body .top_bar{
+    background-color:white;
+    position: absolute;
+    width: 100%;
+    top:14;
+    padding-bottom: 6;
+    left: 0;
+    border: none;
+    border-bottom:1px solid rgb(214, 214, 214);
+    display: flex;
+    justify-content: space-between;
+}
+
+
+body .top_bar .blank:hover, body .top_bar .goto img:hover{
+    cursor: pointer;
+}
+body .top_bar .blank{
+    flex:10;
+}
+body .top_bar .search_bar{
+    flex:8;
+}
+body .top_bar .goto{
+    flex:10;
+    display: flex;
+    justify-content: flex-end;
+ /*   border: 1px solid rgb(214, 214, 214);*/
+}
+
+@media (max-width: 500px){
+    body .top_bar .search_bar{
+        display: none;
+    }
+}

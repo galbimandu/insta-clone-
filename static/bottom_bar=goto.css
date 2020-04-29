@@ -1,0 +1,19 @@
+body .bottom_bar .goto{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 60%;
+}
+body .bottom_bar .goto p{
+    font-size: 12px;
+    color: rgba(var(--fe0,0,55,107),1);
+    font-family: inherit;
+    font-weight: 600;
+}
+@media(max-width: 1000px){
+    body .bottom_bar .goto{
+        max-width: 80%;
+    }
+}
